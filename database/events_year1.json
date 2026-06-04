@@ -1,0 +1,27 @@
+{
+  "campusEvents":[
+    {"id":"hall_owl","name":"猫头鹰撞进礼堂","locations":["great_hall"],"characters":"weighted","effects":["rumor","letter_hint"]},
+    {"id":"moving_stairs","name":"楼梯突然移动","locations":["corridor"],"characters":"weighted","effects":["stress+1","familiarity"]},
+    {"id":"lost_book","name":"遗失的课本","locations":["library","corridor"],"characters":"weighted","effects":["choice_tag"]},
+    {"id":"seat_dispute","name":"礼堂座位风波","locations":["great_hall"],"characters":"house_weighted","effects":["relationship_tag"]},
+    {"id":"rainy_corridor","name":"雨天走廊偶遇","locations":["corridor"],"characters":"important_first","effects":["familiarity"]}
+  ],
+  "classEvents":[
+    {"id":"potion_question","course":"potions","name":"斯内普提问","characters":["snape","harry","draco"],"checks":["才智","魔药学","压力"]},
+    {"id":"cauldron_sputter","course":"potions","name":"坩埚冒烟","characters":"weighted","checks":["决断","魔药学"]},
+    {"id":"charms_partner","course":"charms","name":"课堂搭档","characters":"weighted","checks":["魔咒学","共情"]},
+    {"id":"flying_broom","course":"flying","name":"扫帚回应","characters":["harry","draco","oliver"],"checks":["体能","勇气","飞行课"]}
+  ],
+  "nightNodes":[
+    {"id":"mrs_norris","name":"洛丽丝夫人出现","risk":3,"choices":["躲藏","绕路","用小声响引开"]},
+    {"id":"armor_whisper","name":"盔甲低语","risk":1,"choices":["倾听","离开","检查盔甲后方"]},
+    {"id":"filch_steps","name":"费尔奇脚步声","risk":5,"choices":["立刻躲藏","快步离开","让同伴分散注意"]},
+    {"id":"hidden_door","name":"隐藏门缝","risk":2,"choices":["推门","记下位置","先听里面声音"]}
+  ],
+  "dungeons":[
+    {"id":"kitchen","name":"厨房","unlockYear":1,"risk":1,"theme":"温暖、食物、家养小精灵"},
+    {"id":"secret_tapestry","name":"秘密挂毯","unlockYear":1,"risk":2,"theme":"密道入口、画像传闻"},
+    {"id":"erised_room","name":"厄里斯魔镜房间","unlockYear":1,"risk":2,"theme":"欲望、镜中景象"},
+    {"id":"forest_edge","name":"禁林边缘","unlockYear":1,"risk":4,"theme":"危险、独角兽、黑影"}
+  ]
+}
