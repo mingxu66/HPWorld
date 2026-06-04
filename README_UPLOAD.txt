@@ -1,0 +1,1 @@
+上传 GitHub 时请上传本文件夹内的全部内容：index.html、styles.css、app.js、database 文件夹。不要只上传三个文件。上传后等待 GitHub Pages 部署，并用 Ctrl+F5 强制刷新。
