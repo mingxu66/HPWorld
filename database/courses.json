@@ -1,5 +1,0 @@
-{
-  "yearCaps":{"1":25,"2":35,"3":45,"4":60,"5":75,"6":90,"7":100},
-  "required":{"transfiguration":{"name":"变形术","professor":"麦格","affects":["解谜","课堂表现","教授认可"]},"charms":{"name":"魔咒学","professor":"弗立维","affects":["日常魔法","夜游判定","巨怪事件"]},"potions":{"name":"魔药学","professor":"斯内普","affects":["斯内普关注","魔药事件","毒药识别"]},"dada":{"name":"黑魔法防御术","professor":"奇洛/后续更替","affects":["危险事件","战斗自保"]},"herbology":{"name":"草药学","professor":"斯普劳特","affects":["治疗","禁林材料"]},"astronomy":{"name":"天文学","professor":"辛尼斯塔","affects":["夜间事件","观察"]},"history":{"name":"魔法史","professor":"宾斯","affects":["密室传说","古老家族"]},"flying":{"name":"飞行课","professor":"霍琦","affects":["魁地奇","追逐","体能事件"]}},
-  "electives":{"divination":{"name":"占卜学","openYear":3},"arithmancy":{"name":"算数占卜","openYear":3},"runes":{"name":"古代如尼文","openYear":3},"creatures":{"name":"保护神奇动物","openYear":3},"muggle":{"name":"麻瓜研究","openYear":3},"apparition":{"name":"幻影移形","openYear":7}}
-}
