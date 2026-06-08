@@ -1,0 +1,8 @@
+{
+  "architecture":"worldEnding + characterEnding + careerEnding + personalEnding",
+  "year1BadEnds":{"health_zero":"伤病退学","stress_100":"压力崩溃离校"},
+  "year1Summaries":["对角巷新生","巨怪事件参与者","巨怪事件旁观者","被斯内普记住的新生","哈利信任的人","斯莱特林的异常变量","图书馆观察者"],
+  "longTermWorldEndings":["原著线","轻度偏移线","新时代线","黑暗线","崩坏线"],
+  "careerEndings":["傲罗","治疗师","教授","魔法部官员","研究员","魁地奇职业选手","自由冒险家","魔药师","黑魔法研究者"],
+  "relationshipEndings":{"he":"共同成长/战后重建/并肩未来","ne":"多年好友/远方书信/互相祝福","be":"渐行渐远/战争分离/信任破裂"}
+}
