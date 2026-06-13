@@ -1,0 +1,35 @@
+{
+  "meta": {"name":"HPWorld AI Lore Database","version":"1.6","language":"zh-CN","usage":"供前端叙事智能体检索，不直接完整展示给玩家"},
+  "era": "1991-1998年，玩家作为与哈利·波特同届的一年级女巫进入霍格沃茨。",
+  "start": {"year":1991,"month":8,"location":"对角巷","mustBeginWith":"入学前采购与魔杖选择"},
+  "hardRules": [
+    "一年级阶段禁止恋爱告白、亲吻、成人暧昧；只允许朋友、好奇、信任、依赖、保护欲萌芽。",
+    "AI必须回应玩家刚刚的行动，不能无视玩家输入自顾自推进剧情。",
+    "AI不能引用玩家没有经历过的事件；只可引用state.memories、已完成锚点和数据库允许的世界常识。",
+    "主线有固定锚点，但呈现给玩家的场景、对话和选项必须动态生成。",
+    "场景切换必须通过选项交给玩家确认；不得在玩家做出一个选项后立刻跳转地点或时间。",
+    "所有可攻略角色一旦登场就进入羁绊界面，即使好感没有增加。",
+    "好感每次最多增加1-2点；每月每名角色好感增长上限为3点。",
+    "课程熟练度为学年独立记录，一年级上限25；日常上课会少量增加压力。"
+  ],
+  "locations": {
+    "diagon_alley": {"name":"对角巷","unlockYear":1,"tone":"喧闹、明亮、入学前的惊奇","allowedBeforeSchool":true},
+    "gringotts": {"name":"古灵阁","unlockYear":1,"tone":"高耸、冷白、秩序与金钱感","npc":["妖精"]},
+    "madam_malkin": {"name":"摩金夫人长袍店","unlockYear":1,"tone":"布料、软尺、初遇新生"},
+    "flourish": {"name":"丽痕书店","unlockYear":1,"tone":"书页、拥挤、课程预感"},
+    "ollivanders": {"name":"奥利凡德魔杖店","unlockYear":1,"tone":"安静、尘埃、命运感"},
+    "great_hall": {"name":"礼堂","unlockYear":1,"tone":"四大学院、猫头鹰、消息与流言"},
+    "library": {"name":"图书馆","unlockYear":1,"tone":"安静、线索、学术、偶遇"},
+    "corridor": {"name":"走廊","unlockYear":1,"tone":"移动楼梯、画像、偶遇与突发事件"},
+    "black_lake": {"name":"黑湖","unlockYear":1,"tone":"安静、反思、羁绊谈话"},
+    "quidditch_pitch": {"name":"魁地奇球场","unlockYear":1,"tone":"速度、竞争、学长与学院荣誉"},
+    "forbidden_forest_edge": {"name":"禁林边缘","unlockYear":1,"tone":"危险、低语、黑暗痕迹"}
+  },
+  "schools": {"houses":["格兰芬多","斯莱特林","拉文克劳","赫奇帕奇"],"housePointCanBeNegative":true},
+  "aiNarrativeStyle": {
+    "sceneLength":"普通80-160字，重大事件最多250字",
+    "optionCount":"2-4个直接行动选项",
+    "playerAgency":"永远保留玩家自由输入，不替玩家行动或决定感受",
+    "dialogue":"可攻略角色使用头像+气泡；普通NPC放在旁白中，以‘某某对你说’形式出现"
+  }
+}
